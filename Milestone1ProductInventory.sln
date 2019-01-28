@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milestone1ProductInventory", "Milestone1ProductInventory\Milestone1ProductInventory.csproj", "{633FD094-6EC3-40AA-9768-4F56396F5DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{633FD094-6EC3-40AA-9768-4F56396F5DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{633FD094-6EC3-40AA-9768-4F56396F5DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{633FD094-6EC3-40AA-9768-4F56396F5DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{633FD094-6EC3-40AA-9768-4F56396F5DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4EE402C-3D0A-49CE-A9E8-C20153550B8E}
+	EndGlobalSection
+EndGlobal
