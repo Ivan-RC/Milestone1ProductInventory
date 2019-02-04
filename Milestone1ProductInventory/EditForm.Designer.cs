@@ -40,6 +40,7 @@
             this.btn_Reorder = new System.Windows.Forms.Button();
             this.btn_Delete = new System.Windows.Forms.Button();
             this.btn_Add = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,7 +97,7 @@
             this.btn_Edit.Name = "btn_Edit";
             this.btn_Edit.Size = new System.Drawing.Size(82, 34);
             this.btn_Edit.TabIndex = 10;
-            this.btn_Edit.Text = "Edit";
+            this.btn_Edit.Text = "Cancel";
             this.btn_Edit.UseVisualStyleBackColor = true;
             // 
             // btn_Search
@@ -139,11 +140,22 @@
             this.btn_Add.Text = "Add";
             this.btn_Add.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(79, 136);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 24);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Select";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // EditForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btn_Edit);
             this.Controls.Add(this.btn_Search);
@@ -171,5 +183,6 @@
         private System.Windows.Forms.Button btn_Reorder;
         private System.Windows.Forms.Button btn_Delete;
         private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.Button button1;
     }
 }
