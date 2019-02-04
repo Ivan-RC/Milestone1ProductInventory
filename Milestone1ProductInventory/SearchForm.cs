@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Milestone1ProductInventory
 {
-    public partial class ProductInventory : Form
+    public partial class SearchForm : Form
     {
-        public ProductInventory()
+        public SearchForm()
         {
             InitializeComponent();
         }
